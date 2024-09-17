@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/muckalo/agrcic-tf-and-jenkins-1.git'
+                git branch: 'main', url: 'https://github.com/muckalo/agrcic-tf-and-jenkins-1.git'
             }
         }
         stage('Prepare Lambda Deployment Package') {
