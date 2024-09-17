@@ -140,7 +140,6 @@ script/
 .idea/
 .vars
 vars/
-*.zip
 .terraform
 .terraform.lock.hcl
 
